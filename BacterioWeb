@@ -5,7 +5,9 @@
 		body {
 			text-align: center;
 			background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette2.wikia.nocookie.net%2Fmortadelo-y-filemn%2Fimages%2F1%2F1b%2FEl_otro_yo_del_profesor_Bacterio_%2528personaje%2529.gif%2Frevision%2Flatest%3Fcb%3D20130514165823%26path-prefix%3Des&f=1&nofb=1);
-			background-attachment: initial;
+			background-repeat: no-repeat; /* Aquí está la variación del archivo original */
+			background-size: cover; 
+			background-attachment: fixed; /* Aquí acaba la variación del archivo original */
 			color: black;
 		}
 		p {
